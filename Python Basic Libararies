@@ -1,2 +1,54 @@
 import scipy
-from scipy
+from scipy import linalg
+import numpy as np
+x = np.array([[2,2],[4,2]])
+print(x)
+
+from scipy import linalg
+c=linalg.det(x)
+a,b=linalg.eig(x)
+print(a)
+print(b)
+
+import pandas as pd
+t=pd.Series([1,2,3,4,5,6])
+print(t)
+from ast import Index
+print(t,Index)
+print(t.values)
+print(t.index)
+
+fruit=['Apple','Mango','kiwi','oranges']
+quant = [10,15,12,13]
+D=pd.Series(quant, index=fruits)
+print(D)
+
+import matplotlib.pyplot as plt
+F=plt.plot([1,2,3,4,],[10,12,14,16])
+
+import numpy as np
+l=np.array([1,2,3,4])
+m=np.array([4,5,6,7])
+plt.plot(l,m,"black")
+plt.title("My First Plot")
+plt.xlabel("Quality")
+plt.ylabel("Numbers")
+plt.show()
+
+
+import numpy 
+import pandas
+import pandas as pd
+print("Rakshita")
+import math
+print(math.floor(11.5))
+print(math.ceil(2.4))
+print(math.ceil(-5.3))
+print(math.ceil(10.0))
+print(math.ceil(25.6))
+print(math.sqrt(10))
+print(math.gcd(26.56))
+print(math.factorial(6))
+print(math.isqrt(100))
+print(math.sqrt(256))
+
